@@ -1,0 +1,122 @@
+
+* {
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.header {
+  min-height: 10vh;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#logo-top{
+    height: 7vh;
+    opacity: 100;
+}
+
+#logo-nav {
+    opacity: 0;
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+nav {
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  z-index: 20;
+  font-family: "Frutiger", sans-serif;
+  font-size: 14px;
+}
+
+.active {
+    font-weight: 900;
+}
+  
+li {
+    
+    list-style: none;
+    margin-right: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+li a:hover {
+    /* ADD HOVER CIRCLE?!*/
+}
+    
+a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+
+.content {
+  min-height: 300px;
+}
+
+.bottom-section {
+  min-height: 100px;
+  padding: 0px;
+}
+
+p {
+    color: #fff;
+    font-family: "Frutiger", sans-serif;
+    font-size: 13px;
+    min-width: 200px;
+    max-width: 400px;
+    left: 15vw;
+    top: 60vh;
+    position: absolute;
+    background: none;
+}
+
+h1 {
+  font-size: 130px;
+  letter-spacing: -5px;
+  font-family: "Frutiger", sans-serif;
+  color: #fff;
+  left: 14.5vw;
+  top: 8vh;
+  position: absolute;
+  background: none;
+  line-height: 0.9;
+}
+
+
+/* ANIMATION **********************************/
+
+.animation {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: none;
+    background-image: url("bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+blockquote {
+    font-family: "Frutiger", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    left:90vw;
+    top: 19vh;
+    opacity: 0;
+    background: none;
+    line-height: 0.9;
+}
